@@ -1,10 +1,10 @@
-package com.example.srpint_oath2;
+package com.example.spring_oath2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SrpintOath2ApplicationTests {
+class SpringOath2ApplicationTests {
 
 	@Test
 	void contextLoads() {

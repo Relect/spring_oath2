@@ -1,13 +1,13 @@
-package com.example.srpint_oath2;
+package com.example.spring_oath2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SrpintOath2Application {
+public class SpringOath2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SrpintOath2Application.class, args);
+		SpringApplication.run(SpringOath2Application.class, args);
 	}
 
 }
