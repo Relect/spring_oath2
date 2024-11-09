@@ -1,14 +1,12 @@
 package com.example.todo_oath2.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Data
 @Entity
+@Table(name = "students")
 @NoArgsConstructor
 public class Student {
 
@@ -16,9 +14,14 @@ public class Student {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(name = "last_name")
     private String lastName;
+    @Column(name = "first_name")
     private String firstName;
+    @Column(name = "surname")
     private String surname;
-    private int group;
+    @Column(name = "party")
+    private int party;
+    @Column(name = "average_rating")
     private float averageRating;
 }

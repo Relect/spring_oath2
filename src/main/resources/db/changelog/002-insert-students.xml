@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+        http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.5.xsd">
+
+    <changeSet id="insert" author="Romanov Gennady">
+        <insert tableName="students">
+            <column name="last_name" value="Ivan"/>
+            <column name="first_name" value="Ivanov"/>
+            <column name="surname" value="Maksimovich"/>
+            <column name="party" value="10"/>
+            <column name="average_rating" value="3.8"/>
+        </insert>
+        <insert tableName="students">
+            <column name="last_name" value="Igor"/>
+            <column name="first_name" value="Mamchenko"/>
+            <column name="surname" value="Petrovich"/>
+            <column name="party" value="10"/>
+            <column name="average_rating" value="4.5"/>
+        </insert>
+    </changeSet>
+</databaseChangeLog>
