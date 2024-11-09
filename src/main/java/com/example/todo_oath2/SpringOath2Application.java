@@ -1,4 +1,4 @@
-package com.example.spring_oath2;
+package com.example.todo_oath2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

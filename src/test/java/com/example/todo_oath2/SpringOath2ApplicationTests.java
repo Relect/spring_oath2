@@ -1,4 +1,4 @@
-package com.example.spring_oath2;
+package com.example.todo_oath2;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
