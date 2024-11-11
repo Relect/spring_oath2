@@ -13,5 +13,6 @@ mvn spring-boot:run
 ![метод GET](1.png)
 ![метод POST](2.png)
 ![метод PUT](3.png)
-![метод DELETE](4.png)
+![метод DELETE](4.png) <br>
+Повторное удаление возвращает 404 как и ожидалось. <br>
 ![метод DELETE](5.png)
